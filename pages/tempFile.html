@@ -1,0 +1,80 @@
+<li class="nav-item col-6 p-0 list-number d-none" role="presentation" id="li-template">
+    <a class="nav-link active d-flex col-12 justify-content-center list-title" id="tab-" data-toggle="tab" href="#home-"
+        role="tab" aria-controls="home-" aria-selected="true">Список дел №1 - Бытовые /
+        учебные</a>
+</li>
+
+<div class="tab-pane fade show active" id="tab-template" role="tabpanel" aria-labelledby="tab-">
+    <div class="d-flex justify-content-between col-12 p-0 mb-3">
+        <h2 class="col-7 p-0 list-title" id="h-">Список дел №1 - Бытовые / учебные</h2>
+        <div class="col-5 d-flex justify-content-end align-items-center p-0">
+            <button type="button col-4" class="btn btn-danger p-1"><i class="fas fa-trash-alt"></i>
+                Удалить
+                список</button>
+        </div>
+    </div>
+    <ul class="list-group">
+        <li class="list-group-item p-0 pl-2 bg-warning" id="item-">
+            <div class="col-12 bg-white p-1 d-flex align-items-center justify-content-between" id="media-change">
+                <div class="col-10">
+                    <h4 class="mr-3 ml-3 text-uppercase d-inline item-title" id="title-">Написать доклад</h4>
+                    <h4 class="mr-3 ml-3 text-secondary d-inline item-date" id="date-">05.10.2021</h4>
+                    <p class="mt-2 ml-3 mb-2 mr-3 item-description" id="description-">Проработать как минимум 15
+                        страниц</p>
+                </div>
+                <div class="btn-toolbar h-50 d-flex justify-content-end col">
+                    <div class="btn-group" role="group" aria-label="First group">
+                        <button type="button" class="btn border-success"><i
+                                class="fas fa-check text-success"></i></button>
+                        <button type="button" class="btn border-warning item-btn" data-toggle="modal"
+                            data-target="#exampleModal" value="Написать доклад_Проработать как минимум 15 страниц_2_1"
+                            id="button-" onclick="modal(1)"><i class="fas fa-pencil-alt text-warning"></i></button>
+                        <button type="button" class="btn border-danger"><i
+                                class="fas fa-trash-alt text-danger"></i></button>
+                    </div>
+                </div>
+            </div>
+        </li>
+    </ul>
+</div>
+
+<ul class="list-group" id="group-">
+    <li class="list-group-item p-0 pl-2 bg-warning d-none" id="item-template">
+        <div class="col-12 bg-white p-1 d-flex align-items-center justify-content-between" id="media-change">
+            <div class="col-10">
+                <h4 class="mr-3 ml-3 text-uppercase d-inline item-title"></h4>
+                <h4 class="mr-3 ml-3 text-secondary d-inline item-date">1</h4>
+                <p class="mt-2 ml-3 mb-2 mr-3 item-description"></p>
+            </div>
+            <div class="btn-toolbar h-50 d-flex justify-content-end col">
+                <div class="btn-group" role="group" aria-label="First group">
+                    <button type="button" class="btn border-success"><i
+                            class="fas fa-check text-success"></i></button>
+                    <button type="button" class="btn border-warning item-btn" data-toggle="modal"
+                        data-target="#exampleModal"><i class="fas fa-pencil-alt text-warning"></i></button>
+                    <button type="button" class="btn border-danger" onclick=""><i
+                            class="fas fa-trash-alt text-danger"></i></button>
+                </div>
+            </div>
+        </div>
+    </li>
+</ul>
+
+<li class="list-group-item p-0 pl-2 d-none" id="check-template">
+    <div class="col-12 p-1 d-flex align-items-center" id="sanya">
+        <div class="col-10">
+            <h4 class="mr-3 ml-3 text-uppercase d-inline check-text">вернуть сане долг</h4>
+            <h4 class="mr-3 ml-3 text-secondary d-inline check-date">04.10.2021</h4>
+            <p class="mt-2 ml-3 mb-2 mr-3 check-description">Должен сотку, нужно вернуть</p>
+        </div>
+        <div class="btn-toolbar d-flex justify-content-end col">
+            <div class="btn-group" role="group" aria-label="First group">
+                <i class="fas fa-check text-success display-4"></i>
+            </div>
+        </div>
+</li>
+
+<select name="List" id="spisok" class="form-control">
+    
+    <option value="2">Список дел №2 - Рабочие</option>
+</select>
